@@ -35,6 +35,7 @@ http://localhost:7000/
 
 ## Done
 
+- [x] async server components
 - [x] render full component tree
 - [x] react server
 - [x] render static HTML, like `<p>text</p>`

@@ -4,6 +4,7 @@
   "description": "",
   "type": "module",
   "scripts": {
+    "start": "node lib/rsc-server.js",
     "test": "vitest --run"
   },
   "author": "Lars Thorup <lars@zealake.com>",

@@ -6,8 +6,8 @@ import App from "./App.js";
 
 // const h = createElement;
 
-it('should server render to HTML then mount', () => {
-  // const rootElement = render(h(App));
-  const rootElement = render(App());
+it('should server render to HTML then mount', async () => {
+  // const rootElement = await render(h(App));
+  const rootElement = await render(App());
   expect(getByText(rootElement, 'Hello World!').tagName.toLowerCase()).toBe('p');
 });

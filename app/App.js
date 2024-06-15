@@ -1,4 +1,4 @@
-import { createElement } from "../lib/react-dom-client.js";
+import { createElement } from "../lib/react.js";
 
 const h = createElement;
 

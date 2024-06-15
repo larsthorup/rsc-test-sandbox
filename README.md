@@ -22,14 +22,19 @@ http://localhost:7000/
 
 ## TODO
 
-- [ ] render full component tree
 - [ ] hydration
 - [ ] client components
 - [ ] e2e-test
 - [ ] async server components
 - [ ] server actions
 
+## Thanks
+
+- [Aurora Scharff](https://github.com/aurorascharff) for [RSC usage inspiration](https://github.com/aurorascharff/next14-remix-jokes-rebuild).
+- [Dan Abramov](https://github.com/gaearon) for [RSC From Scratch](https://github.com/reactwg/server-components/discussions/5)
+
 ## Done
 
+- [x] render full component tree
 - [x] react server
 - [x] render static HTML, like `<p>text</p>`

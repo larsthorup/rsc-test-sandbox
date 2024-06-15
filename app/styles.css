@@ -1,0 +1,16 @@
+.server-component {
+  margin: 2px;
+  padding: 2px;
+  border: 2px solid blue;
+}
+
+.client-component {
+  margin: 2px;
+  padding: 2px;
+  border: 2px solid green;
+}
+
+main > div {
+  display: flex;
+  flex-direction: row;
+}

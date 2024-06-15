@@ -25,8 +25,8 @@ http://localhost:7000/
 - [ ] hydration
 - [ ] client components
 - [ ] e2e-test
-- [ ] async server components
 - [ ] server actions
+- [ ] hydrate react elements returned from server actions
 
 ## Thanks
 

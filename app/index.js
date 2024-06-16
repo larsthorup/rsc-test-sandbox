@@ -19,8 +19,8 @@ export default function RootPage() {
       h("link", {
         rel: "stylesheet",
         href: "./styles.css",
-      })
+      }),
     ),
-    h("body", {}, h(MainLayout, null, h(DreamsPage)))
+    h("body", {}, h(MainLayout, null, h(DreamsPage))),
   );
 }

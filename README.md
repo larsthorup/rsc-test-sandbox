@@ -22,8 +22,10 @@ http://localhost:7000/
 
 ## TODO
 
-- [ ] hydration
-- [ ] client components
+- [ ] useState
+- [ ] embed react tree in script tag
+- [ ] hydrate mounted html with react tree
+- [ ] avoid hard-coded paths, like "app" and "lib" in rsc-server
 - [ ] e2e-test
 - [ ] server actions
 - [ ] hydrate react elements returned from server actions

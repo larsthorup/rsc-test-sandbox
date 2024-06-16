@@ -23,8 +23,10 @@ http://localhost:7000/
 ## TODO
 
 - [ ] useState
+- [ ] re-rendering
 - [ ] embed react tree in script tag
 - [ ] hydrate mounted html with react tree
+- [ ] test hydration
 - [ ] avoid hard-coded paths, like "app" and "lib" in rsc-server
 - [ ] e2e-test
 - [ ] server actions

@@ -1,10 +1,10 @@
 // 'use client';
-import { createElement as h } from "../lib/react.js";
+import { createElement as h, useState } from "../lib/react.js";
 
 export default function Outline({ text, children }) {
-  const expanded = true; // const [expanded, setExpanded] = useState(true);
+  const [expanded, setExpanded] = useState(true);
   const toggleExpanded = () => {
-    alert('toggle'); // () => setExpanded((prev) => !prev);
+    setExpanded((prev) => !prev);
   };
   const symbol = expanded ? '▼' : '▶';
   return (

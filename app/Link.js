@@ -1,3 +1,4 @@
+'use client';
 import { createElement as h } from "../lib/react.js";
 
 export default function Link({ href, children }) {

@@ -1,4 +1,4 @@
-// 'use client';
+'use client';
 import { createElement as h, useState } from "../lib/react.js";
 
 export default function Outline({ text, children }) {

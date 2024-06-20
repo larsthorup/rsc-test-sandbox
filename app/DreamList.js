@@ -2,6 +2,10 @@ import { createElement as h } from "../lib/react.js";
 import { getDreams } from "./getDreams.js";
 import Link from "./Link.js";
 
+if (typeof window !== "undefined") {
+  throw new Error("Server components must not run in the browser")
+}
+
 export default async function DreamList() {
   const dreams = await getDreams();
   const dreamsSorted = dreams.sort((a, b) => {
@@ -25,6 +29,6 @@ export default async function DreamList() {
         );
       })
     ),
-    h("small", {}, `(${new Date().toISOString().substring(11, 19)})`)
+    h("small", {}, `(${new Date().toLocaleTimeString()})`)
   );
 }

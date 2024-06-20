@@ -22,8 +22,6 @@ http://localhost:7000/
 
 ## TODO
 
-- [ ] assert that the client module environment is not shared with server module environment
-- [ ] TestRenderer should keep server rendering in a different module environment from DOM and client rendering 
 - [ ] bespoke react-client-manifest.json with list of client components
 - [ ] when expanding server components skip client components from rsc payload
 - [ ] when generating html also expand client components
@@ -44,6 +42,8 @@ http://localhost:7000/
 
 ## Done
 
+- [x] in test: use worker thread to do server rendering in a different module environment from DOM and client rendering 
+- [x] verify that server components are not being loaded in client module environment
 - [x] test hydration
 - [x] async server components
 - [x] render full component tree

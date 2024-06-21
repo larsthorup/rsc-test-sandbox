@@ -22,9 +22,6 @@ http://localhost:7000/
 
 ## TODO
 
-- [ ] bespoke react-client-manifest.json with list of client components
-- [ ] when expanding server components skip client components from rsc payload
-- [ ] when generating html also expand client components
 - [ ] useState
 - [ ] re-rendering
 - [ ] embed react tree in script tag
@@ -42,6 +39,9 @@ http://localhost:7000/
 
 ## Done
 
+- [x] when generating html also expand client components
+- [x] when expanding server components skip client components from rsc payload
+- [x] bespoke react-client-manifest.json with list of client components
 - [x] in test: use worker thread to do server rendering in a different module environment from DOM and client rendering 
 - [x] verify that server components are not being loaded in client module environment
 - [x] test hydration

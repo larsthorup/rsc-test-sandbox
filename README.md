@@ -39,6 +39,7 @@ http://localhost:7000/
 
 ## Done
 
+- [x] createTextElement to be compatible with react-dom-client hydrateRoot
 - [x] when generating html also expand client components
 - [x] when expanding server components skip client components from rsc payload
 - [x] bespoke react-client-manifest.json with list of client components

@@ -24,8 +24,6 @@ http://localhost:7000/
 
 - [ ] useState
 - [ ] re-rendering
-- [ ] embed react tree in script tag
-- [ ] hydrate mounted html with react tree
 - [ ] avoid hard-coded paths, like "app" and "lib" in rsc-server
 - [ ] e2e-test
 - [ ] server actions
@@ -36,9 +34,12 @@ http://localhost:7000/
 
 - [Aurora Scharff](https://github.com/aurorascharff) for [RSC usage inspiration](https://github.com/aurorascharff/next14-remix-jokes-rebuild).
 - [Dan Abramov](https://github.com/gaearon) for [RSC From Scratch](https://github.com/reactwg/server-components/discussions/5)
+- [Rodrigo Pombo](https://pomb.us/) for [Build your own React](https://pomb.us/build-your-own-react/)
 
 ## Done
 
+- [x] hydrate mounted html with react tree
+- [x] import client components before hydration
 - [x] createTextElement to be compatible with react-dom-client hydrateRoot
 - [x] when generating html also expand client components
 - [x] when expanding server components skip client components from rsc payload

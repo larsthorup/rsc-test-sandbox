@@ -17,7 +17,7 @@ export default async function DreamList() {
     h(
       "ul",
       {},
-      dreamsSorted.map(({ id, name }) => {
+      ...dreamsSorted.map(({ id, name }) => {
         return h(
           "li",
           { key: id },

@@ -2,7 +2,7 @@
 
 An experimental test runner for an experimental implementation of React Server Components. 
 
-The main requirement is that the test runner can manage two global execution contexts, to allow for separate module graphs between server and client rendering.
+The main requirement is that the test runner can manage two global execution contexts, to allow for separate module graphs between server and client rendering. Currently using a worker for this.
 
 Non requirements:
 - Bundling (using individual URL-based import instead)
@@ -22,7 +22,6 @@ http://localhost:7000/
 
 ## TODO
 
-- [ ] avoid global code in rsc-client
 - [ ] avoid hard-coded paths, like "app" and "lib" in rsc-server
 - [ ] tweet
 - [ ] e2e-test
@@ -38,6 +37,7 @@ http://localhost:7000/
 
 ## Done
 
+- [x] avoid global code in rsc-client
 - [x] avoid rendering `false`
 - [x] polyfill requestIdleCallback for testing in jsdom
 - [x] re-rendering

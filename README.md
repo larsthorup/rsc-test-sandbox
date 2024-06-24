@@ -22,9 +22,9 @@ http://localhost:7000/
 
 ## TODO
 
-- [ ] avoid hacks with nested element child arrays in react-dom-client
 - [ ] avoid global code in rsc-client
 - [ ] avoid hard-coded paths, like "app" and "lib" in rsc-server
+- [ ] tweet
 - [ ] e2e-test
 - [ ] server actions
 - [ ] hydrate react elements returned from server actions

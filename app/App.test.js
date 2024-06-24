@@ -7,7 +7,7 @@ it("should server render to HTML then mount", async () => {
   const user = userEvent.setup();
 
   // when: page is initially rendered
-  const rootElement = await renderPage("../app/index.js");
+  const rootElement = await renderPage("/");
 
   // then: outline is expanded and all children are rendered
   const outlineToggle = getByText(

@@ -10,7 +10,7 @@ export default function Outline({ text, children }) {
   return (
     h('div', {className: "client-component"}, 
       h('p', {onClick: toggleExpanded}, `${text} ${symbol}`),
-      expanded && children
+      expanded && h('div', {}, ...children),
     )
   );
 }

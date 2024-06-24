@@ -22,8 +22,9 @@ http://localhost:7000/
 
 ## TODO
 
-- [ ] useState
-- [ ] re-rendering
+- [ ] avoid rendering `false`
+- [ ] avoid hacks with nested element child arrays in react-dom-client
+- [ ] avoid global code in rsc-client
 - [ ] avoid hard-coded paths, like "app" and "lib" in rsc-server
 - [ ] e2e-test
 - [ ] server actions
@@ -38,6 +39,9 @@ http://localhost:7000/
 
 ## Done
 
+- [x] polyfill requestIdleCallback for testing in jsdom
+- [x] re-rendering
+- [x] useState
 - [x] hydrate mounted html with react tree
 - [x] import client components before hydration
 - [x] createTextElement to be compatible with react-dom-client hydrateRoot

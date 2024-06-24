@@ -22,7 +22,6 @@ http://localhost:7000/
 
 ## TODO
 
-- [ ] avoid rendering `false`
 - [ ] avoid hacks with nested element child arrays in react-dom-client
 - [ ] avoid global code in rsc-client
 - [ ] avoid hard-coded paths, like "app" and "lib" in rsc-server
@@ -39,6 +38,7 @@ http://localhost:7000/
 
 ## Done
 
+- [x] avoid rendering `false`
 - [x] polyfill requestIdleCallback for testing in jsdom
 - [x] re-rendering
 - [x] useState

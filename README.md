@@ -22,10 +22,10 @@ http://localhost:7000/
 
 ## TODO
 
-- [ ] avoid hard-coded paths, like "app" and "lib" in rsc-server
 - [ ] tweet
-- [ ] e2e-test
-- [ ] server actions
+- [ ] rsc-server: serialize server action in rsc payload 
+- [ ] rsc-client: deserialize server action as a function to make server action HTTP request
+- [ ] rsc-server: respond to server action HTTP request 
 - [ ] hydrate react elements returned from server actions
 - [ ] generate react-client-manifest.json from `'use client';` with a node module loader hook (simpler than bundling)
 
@@ -37,6 +37,7 @@ http://localhost:7000/
 
 ## Done
 
+- [x] avoid hard-coded paths, like "app" and "lib" in rsc-server
 - [x] avoid global code in rsc-client
 - [x] avoid rendering `false`
 - [x] polyfill requestIdleCallback for testing in jsdom

@@ -23,10 +23,9 @@ http://localhost:7000/
 ## TODO
 
 - [ ] tweet
-- [ ] rsc-server: serialize server action in rsc payload 
-- [ ] rsc-client: deserialize server action as a function to make server action HTTP request
-- [ ] rsc-server: respond to server action HTTP request 
-- [ ] hydrate react elements returned from server actions
+- [ ] rsc-client: deserialize server action props as a function to make server action HTTP request
+- [ ] rsc-client: hydrate react elements returned from server actions
+- [ ] testing server action
 - [ ] generate react-client-manifest.json from `'use client';` with a node module loader hook (simpler than bundling)
 
 ## Thanks
@@ -37,6 +36,8 @@ http://localhost:7000/
 
 ## Done
 
+- [x] rsc-server: respond to server action HTTP request 
+- [x] rsc-server: serialize server action output in rsc payload 
 - [x] avoid hard-coded paths, like "app" and "lib" in rsc-server
 - [x] avoid global code in rsc-client
 - [x] avoid rendering `false`

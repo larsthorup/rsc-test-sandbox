@@ -22,10 +22,8 @@ http://localhost:7000/
 
 ## TODO
 
-- [ ] avoid hard-coded paths, like "app" and "lib" in rsc-server
-- [ ] tweet
+- [ ] server actions (wip: https://github.com/larsthorup/rsc-test-sandbox/tree/experiment/server-action)
 - [ ] e2e-test
-- [ ] server actions
 - [ ] hydrate react elements returned from server actions
 - [ ] generate react-client-manifest.json from `'use client';` with a node module loader hook (simpler than bundling)
 

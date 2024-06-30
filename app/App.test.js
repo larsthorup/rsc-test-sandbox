@@ -3,7 +3,7 @@ import { findByText, getByText, queryByText } from "@testing-library/dom";
 import { renderPage } from "../lib/rsc-test.js";
 import { userEvent } from "@testing-library/user-event";
 
-it("should server render to HTML then mount", async () => {
+it("should server render to HTML then hydrate", async () => {
   const user = userEvent.setup();
 
   // when: page is initially rendered
